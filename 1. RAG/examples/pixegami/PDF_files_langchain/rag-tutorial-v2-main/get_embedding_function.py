@@ -1,8 +1,11 @@
-from langchain_community.embeddings.ollama import OllamaEmbeddings
+from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_community.embeddings.bedrock import BedrockEmbeddings
 
 
 def get_embedding_function():
-    # embeddings = BedrockEmbeddings(credentials_profile_name="default", region_name="us-east-1")
-    embeddings = OllamaEmbeddings(model="nomic-embed-text")
+    GOOGLE_API_KEY ="AIzaSyBix_tv-jF8TGPdE7heMusPblk8hzqTs48"
+    embeddings = GoogleGenerativeAIEmbeddings(
+        google_api_key=GOOGLE_API_KEY,
+        model="models/embedding-001"
+    )
     return embeddings

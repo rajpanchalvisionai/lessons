@@ -1,0 +1,269 @@
+OCR:  The character matching (%) tolerance is changed automatically.  
+  Pharma code: Extended search(pixel), Length (%) and Color tolerances are 
+changed automatically.  
+• Press Next button for navigating to next page.
+
+---
+
+Q1: What should you do if the camera is showing as disconnected?  
+A1: 
+Check the camera’s LAN and power cables.  
+Verify the camera assignment in the software configuration window.  
+Check the IP address of the CPU or Panel PC’s LAN port.  
+Check the camera’s IP address.  
+Q2: What steps should be taken if the IO controller is 
+disconnected?  
+A2: 
+Check the IO controller’s power supply.  
+Verify the IP address of the CPU or Panel PC.  
+Check the IP address of the IO controller.  
+Ensure the IO slices or modules are properly connected.  
+Q3: What should you do if the camera is not flashing when the 
+trigger is received?  
+A3: 
+Go to the software camera settings and click on “Single Grab.” If the 
+camera flashes, it means the trigger is not being received from the 
+machine PLC.  
+Check the physical connection of the light.  
+Open the software IO settings, go to the troubleshooting section, and 
+click on "LT." The signal should then be high.  
+Q4: What should be verified if the primary input for the camera or 
+the trigger for picture grab is not received from the machine PLC?  
+A4: 
+Verify the software scope view to ensure the trigger signal is being 
+received.  
+Q5: What should you check if broken tablets are not being 
+detected?  
+A5: 
+Check the product threshold.
+
+---
+
+Distance : This is a dimension check, it can be helpful in detecting broken tablets and size variation in 
+tablets. This is the RMS value of the combined deviation in area, length and width of the tablets.  
+Shape Error : This is a shape checking parameter, it is very helpful in detecting broken tablets.  
+General Tolerance :  
+1) Number of Inspection: It is count of product, how many times product are inspected.  
+2) Number of Rejection : Entering into to inspection area till the exit of the product from inspection 
+area all the products are inspected multiple times. So if any product is rejected more than “Number 
+of Rejection” count than only it will be considered as rejected product.
+
+---
+
+STEP -1 ................................ ................................ ................................ ................................ ................................ . 12 
+SCOPEVIEW  ................................ ................................ ................................ ................................ ................................ . 27 
+INTRODUCTION  ................................ ................................ ................................ ................................ ......................  27 
+Architecture  ................................ ................................ ................................ ................................ ............................  28
+
+---
+
+ensures that accurate information is printed each and every time.  
+Type of Codes Supported  
+• Pharmacode  
+• 1D Barcode  
+• GS1 Barcodes  
+• Datamatrix Codes  
+• GS1 Datamatrix  
+• OCR / OCV  
+• Artwork / Logo
+
+---
+
+8) Advance user can also use threshold bars to perform color segmentation.  
+ 
+ 
+9)  Once segmentation of the product color is completed, click  to go to 
+STEP-4.
+
+---
+
+OPERATION  ................................ ................................ ................................ ................................ ................................ ...29 
+RECIPE MANAGEMENT  ................................ ................................ ................................ ................................ .......... 29 
+BATCH/INSPECTION START -STOP  ................................ ................................ ................................ .................... 34
+
+---
+
+constantly underdevelopment. For that reason the documentation is not in every case checked 
+for consistency with performance data, standards or other cha racteristics. In the event that it 
+contains technical or editorial errors, we retain the right to ma ke alterations at any time and 
+without warning. No c laims for the modification of products that have already been supplied may 
+be made on the basis of the data, diagrams and d escriptions in this documentation.
+
+---
+
+Transparent capsules with varying powder levels or multi -colored 
+granules.  
+Bi-layer tablets like white -gray on either side.  
+ 
+Q6: What should the user do if the product color segmentation is 
+not proper during Auto Teaching?  
+ 
+A6: If the product color is not segmented correctly (i.e., the entire 
+product is not highlighted), the user should go to the Threshold Tab and 
+adjust the product segmentation settings as discussed in the manual 
+teaching process.  
+ 
+Q7: How does the system help with cavity and blister detection 
+during Auto Teaching?  
+ 
+A7: The system uses the Smart Symmetry method to detect blister 
+positions. The user can manually adjust the cavity positions or numbering 
+if needed. They can also use the "Shuffle Blister" button to visualize 
+different blister configurations.  
+ 
+Q8: What are the corrective actions if the cavity or blister 
+sequence is not correct during Auto Teaching?  
+ 
+A8: If the cavity is not positioned correctly or the blister sequence is 
+incorrect, the user should:  
+Go back to the relevant step (Step 2 for cavities or Step 4 for blisters) to 
+adjust the positions or sequence as necessary.  
+ 
+Q9: What happens after the Auto Teaching process is completed?  
+A9: After completing Auto Teaching, the user should verify the following:  
+All products are segmented properly.  
+All cavities are in the correct position.  
+Blisters are numbered and positioned correctly. If everything is correct, 
+the user can proceed to the "Learn" tab to finalize the training.
+
+---
+
+Document  Type:  User  Manual  Document  Name:  Blisbeat -B-User  Manual  Version:  2.1 
+51  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+10) Click Next button  to navigate  to STEP-4.
+
+---
+
+Document  Type:  User  Manual  Document  Name:  Blisbeat -B-User  Manual  Version:  2.1 
+67  
+  
+ 
+ 
+12) Click Next button  to navigate  to STEP-4.
+
+---
+
+Document  Type:  User  Manual  Document  Name:  Blisbeat -B-User  Manual  Version:  2.1 
+83  
+  
+ 
+ 
+ 
+14) Click Next button  to navigate  to STEP-4.
+
+---
+
+Document  Type:  User  Manual  Document  Name:  Blisbeat -B-User  Manual  Version:  2.1 
+35  
+  
+ 
+ 
+  
+ 
+ 
+13) Click Next button  to navigate  to STEP-4.
+
+---
+
+can be configurable.  
+ 
+Pause  – User can pause inspection using 
+  , on inspection pause user can 
+stop the machine and analyze the previously inspected images.  
+Stop – User can stop the inspection and end the currently running batch by 
+pressing the inspection stop button  
+ . 
+ Also it has a Power button; on clicking it various options are available 
+like application Exit, Logout, Lock, System Restart & Shutdown.
+
+---
+
+STEP -1 
+ 
+1) Press “ Machine Grab ” button, run the machine.  
+2) After running machine, all the images that are captured by camera will be displayed as thumb view 
+with current image displayed on the main display.  
+NOTE: On running machine in machine grab all the cameras will grab their respective images.  
+3) User can click on the thumb image to view that particular image only for this page.
+
+---
+
+1. Issue: Unable to Connect with Database Server  
+Q: What can cause issues connecting to the database server?  
+A: 
+1. If MySQL password has expired, reset the password.  
+2. If MySQL service is not running, reinstall the MySQL executable.  
+3. If MySQL services are off, reset the MySQL password.  
+ 
+2. Issue: Unable to Load Recipe Image  
+Q: What can prevent the loading of a recipe image?  
+A: 
+1. Hardware change (such as camera replacement).  
+2. Camera assignment group has changed.  
+3. Camera swapped at an assigned station or due to LAN swapping.  
+4. Changes in application software.  
+5. If a recipe is taught with one camera and two cameras are enabled.  
+ 
+3. Issue: Unable to Save Recipe Image  
+Q: Why might saving a recipe image fail?  
+A: 
+1. The software login is not with an administrator account.  
+2. User Account Control (UAC) settings are not configured properly; it 
+should be set to "Never Notify."  
+ 
+4. Issue: Data Transfer Speed is Too Slow  
+Q: What could cause slow data transfer speeds?  
+A: 
+1. Hardware changes, such as altering the camera position.
+
+---
+
+between Camera I/O controller & 
+IPC and check the alarm.  
+3  GOOD PRODUCTION 
+LIMIT REACHED  Good Production limit 
+Reached.  Machine stops normally.  Set Good Production Count limit on 
+HMI.  
+4 CONSECUTIVE FAULT LIMIT 
+REACHED  Consecutive Fault Limit 
+Reached.  Machine stops normally.  Set Good Production Count limit on 
+HMI.
+
+---
+
+25 
+ 
+Document Type: User Manual       Document Name: Countbeat -User Manual   Document Version: 5.0  
+ 
+  
+ 
+4)Than select colors of the product from main image by click on  
+5)Select the specification of the product i.e. Tablet/Capsule.  
+6)Select specification of the product i.e. Powdered Product, Printed, Bi -Layer,Emboss print etc for 
+Tablet.  
+7)Select specification for Capsule product i.e. Powdered Product, Printed,Transparent, Rotated Bi -
+Layer, Powder/Granules.
+
+---
+
+Gray -Any -  
+Speed:  
+Medium - This is a default value and works in most of the machine speed.  
+High - This option can be used for high -speed machines, but this will also accuracy 
+of verification.  
+Invert Result:  
+It is used to invert the result.
+
+---
+
+time to the beginning of  the display.  
+• Time : The absolute  time at the origin  of the chart.  
+• Date: The absolute  date at the origin  of the chart.
